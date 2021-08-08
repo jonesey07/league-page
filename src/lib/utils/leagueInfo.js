@@ -27,7 +27,7 @@ export const managers = [
       "bio": "Defending Back-to-back Champion",
       "photo": "/managers/Mike.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "buf// (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "The League", // Can be anything (usually your rival's name)
