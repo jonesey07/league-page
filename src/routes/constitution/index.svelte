@@ -1,83 +1,103 @@
+<script context="module">
+	export const prerender = true;
+</script>
 
-<html>
+<script>
+    import { dues } from '$lib/utils/helper';
+    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
+    let two, twoOne, twoTwo, twoThree;
+    let three, threeOne;
+    let four, fourOne, fourTwo;
+    let five, fiveOne;
+    let six, sixOne, sixTwo, sixThree;
+    let seven, sevenOne, sevenTwo, sevenThree;
 
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+    const goToSection = (section) => {
+        const top = section.getBoundingClientRect().top;
+        window.scrollTo({left: 0, top, behavior: 'smooth'});
+    }
+</script>
+
 <style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:0in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-.MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
+    .constitution {
+        position: relative;
+        z-index: 1;
+        width: 92%;
+        max-width: 800px;
+        margin: 8em auto 10em;
+    }
+
+    h1 {
+        font-size: 2em;
+        line-height: 1.2em;
+        text-align: center;
+        margin: 2em 0 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    h3 {
+        text-decoration: underline;
+        font-size: 1.3em;
+        line-height: 1.2em;
+    }
+
+    h4 {
+        text-decoration: underline;
+        margin-left: 2em;
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    h5 {
+        margin-left: 6em;
+        font-size: 0.8em;
+        line-height: 1.1em;
+    }
+
+    .subBlock {
+        margin-left: 2.4em;
+    }
+
+    .sectionHeading {
+        margin: 4em 0 1.5em;
+    }
+
+    .subSectionHeading {
+        margin: 1.5em 0 1.5em;
+    }
+
+    .underscore {
+        text-decoration: underline;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .positionMaximums td {
+        min-width: 3em;
+    }
+
+    .noUnderscore {
+        text-decoration: none;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+
+    .clickable:hover {
+        color: #00316b;
+    }
+
+    p {
+        color: #777;
+    }
 </style>
-
-</head>
-
-<body lang=EN-US style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
@@ -359,7 +379,3 @@ draft app as that selection. </span></p>
 115%'>&nbsp;</span></p>
 
 </div>
-
-</body>
-
-</html>
