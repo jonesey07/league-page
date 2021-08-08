@@ -153,25 +153,29 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>25 Total rostered players with a 5 player taxi squad.</p>
     
     <p class="underscore">Starters</p>
     <ul>
         <li>QB</li>
+	<li>QB</li>    
         <li>RB</li>
         <li>RB</li>
         <li>WR</li>
         <li>WR</li>
+	<li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>FLEX (RB/WR/TE)</li>
+        
     </ul>
     
     <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
 
     <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+	
+    <p>In order to be eligible for the taxi squad, players must be in thier 1st or 2nd year as an NFL player. Once a player is activated from the taxi squad, he cannot be placed back on the taxi squad for the remainder of that season.	
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
