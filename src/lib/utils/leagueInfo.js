@@ -22,7 +22,7 @@ export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Mike Jones",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": 2016, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Murfreesboro, TN", // (optional)
       "bio": "Defending Back-to-back Champion",
       "photo": "/managers/Mike.jpg", // square ratio recommended (no larger than 500x500)
